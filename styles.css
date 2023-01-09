@@ -1,0 +1,45 @@
+body{
+    background-color: aquamarine;
+}
+
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
+  #navbar{
+    position: fixed;
+  }
+section{
+    background-color: azure;
+    border-radius: 25px;
+    text-align: center;
+    font-size: large;
+}
+
+#navbar , #navbar a{
+    margin-top: 20px;
+    margin-left: 18px;
+    font-size: large;
+    text-decoration: none;
+}
+
+#profile-link , #profile-link a{
+    margin-top: 15px;
+    font-size: large;
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+#profile-link  a:hover{
+    color:blue;
+    font-size: larger;
+}
+
+#navbar  a:hover{
+    color:blue;
+    font-size: larger;
+}
+  
